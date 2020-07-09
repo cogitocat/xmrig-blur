@@ -1,3 +1,7 @@
+### Dependencies
+
+https://github.com/cogitocat/blur/tree/master/blur-miner-xmrig-unofficial
+
 ### To build
 
 `docker build -t blur-xmrig .`
