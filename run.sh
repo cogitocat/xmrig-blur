@@ -82,7 +82,7 @@ if cat /proc/cpuinfo | grep "AMD Ryzen" > /dev/null; then
 	wrmsr -a 0xc0011021 0x40
 	echo "MSR register values for Ryzen applied"
 elif cat /proc/cpuinfo | grep "Intel" > /dev/null; then
-	echo "Detected Intel - Disable tuning for now... ppasika"
+	echo "Detected Intel - Disable tuning for now..."
 	echo wrmsr -a 0x1a4 0xf
 	echo "MSR register values for Intel applied"
 else
